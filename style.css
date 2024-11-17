@@ -598,7 +598,7 @@ a {
     margin-top: 15px;
   }
   .d-destinations {
-    margin-right: 35px;
+    margin-right: 3px;
   }
 
   .bflex {
@@ -773,7 +773,7 @@ a {
     gap: 20px;
   }
   .map2 img {
-    width: 100%;
+    width: 80%;
   }
   .thialand {
     margin: 20px;
@@ -793,8 +793,8 @@ a {
   }
   .p-flex {
     margin: 15px;
-    flex-direction: row;
-    gap: 30px;
+    flex-direction: column;
+    gap: 75px;
   }
   .p-button button{
     margin-top: 100px;
