@@ -576,7 +576,7 @@ a {
   margin-bottom: 30px;
 }
 /* Media query for max-width: 480px */
-@media (max-width: 480px) {
+@media (max-width: 567px) {
   .content{
     margin: 100px auto;
   }
@@ -651,7 +651,10 @@ a {
     width: 45px;
   }
   .subscribe {
-    margin-right: 150px;
+    display: none;
+}
+.what-p-s-a-u{
+  display: none;
 }
   .box img {
     width: 420px;
@@ -696,7 +699,7 @@ a {
   
 } 
 /* Media query for max-width: 576px */
-@media (max-width: 576px) {
+@media (max-width: 768px) {
   .hero{
     width: 100%;
   }
