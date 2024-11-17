@@ -575,9 +575,131 @@ a {
   margin-top: 30px;
   margin-bottom: 30px;
 }
+/* Media query for max-width: 480px */
+@media (max-width: 480px) {
+  .content{
+    margin: 100px auto;
+  }
+  .service-c {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .d-flex {
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  .map2 img {
+    width: 70%;
+    margin-left: 10px;
+  }
+  .thialand {
+    gap: 50px;
+    margin-top: 15px;
+  }
+  .d-destinations {
+    margin-right: 35px;
+  }
 
-/* Media query for max-width: 600px */
-@media (max-width: 600px) {
+  .bflex {
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+  .p-flex {
+    flex-direction: column;
+    gap: 95px;
+  }
+  .booking-f {
+    flex-direction: column;
+  }
+  .booking-h h1 {
+    font-size: 1em;
+}
+  .content h1 {
+    font-size: 1em;
+  }
+  .layout {
+    padding: 50px;
+    height: auto;
+  }
+  .f-flex {
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 25px;
+  }
+  .img-a, .img-a2{
+    display: none;
+  }
+  .images img {
+    width: 350px;
+  }
+  .overlay-text {
+    top: 61%;
+    left: 10%;
+    width: 270px;
+    height: 110px;
+    padding: 10px;
+  }
+  .overlay-text p {
+    font-size: 0.6em;
+    margin-bottom: 5px;
+    margin-top: 15px;
+  }
+  .img-overlay img {
+    top: 48%;
+    right: 145px;
+    width: 45px;
+  }
+  .subscribe {
+    margin-right: 150px;
+}
+  .box img {
+    width: 420px;
+    height: auto;
+  }
+  .box-text {
+    top: 25px;
+    left: 130px;
+  }
+  .box-text p {
+    font-size: 0.4em;
+    font-weight: 900;
+    margin-bottom: 5px;
+  }
+  .box-text input {
+    padding: 5px 10px 5px 18px;
+    margin-right: 5px;
+  }
+  .box-text button {
+    padding: 5px 5px;
+    margin-top: 5px;
+    border-radius: 5px;
+  }
+  .box-text img {
+    top: 52%;
+    left: 2%;
+  }
+  .icn1 {
+    top: -5%;
+    left: 135%;
+  }
+  .icn2{
+    display: none;
+  }
+  .footer-f {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+  }
+
+  
+  
+} 
+/* Media query for max-width: 576px */
+@media (max-width: 576px) {
+  .hero{
+    width: 100%;
+  }
   .hamburger {
     display: block;
     position: absolute;
@@ -685,10 +807,10 @@ a {
   }
   .overlay-text {
     top: 60%;
-    left: -2%;
+    left: 21%;
     width: 250px;
     height: 100px;
-    padding: 22px;
+    padding: 15px;
     
   }
   .overlay-text p {
@@ -700,24 +822,24 @@ a {
   }
   .img-overlay img {
     top: 40%;
-    right: 80px;
-    width: 50px;
+    right: 195px;
+    width: 45px;
   }
   .box img{
-    width: 380px;
+    width: 545px;
     height: auto;
     margin-left: -35px;
   }
   .icn1 {
-    top: -10%;
-    left: 105%;
+    top: -5%;
+    left: 98%;
   }
   .icn2 {
     display: none;
   }
   .box-text{
-    top: 25px;
-    left: 0px;
+    top: 45px;
+    left: 110px;
   }
   .box-text p {
     font-size: 0.6em;
