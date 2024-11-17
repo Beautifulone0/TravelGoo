@@ -793,8 +793,8 @@ a {
   }
   .p-flex {
     margin: 15px;
-    flex-direction: column;
-    gap: 100px;
+    flex-direction: row;
+    gap: 30px;
   }
   .p-button button{
     margin-top: 100px;
@@ -806,13 +806,13 @@ a {
     display: none;
   }
   .images img{
-    width: 350px;
+    width: 580px;
   }
   .overlay-text {
-    top: 60%;
+    top: 68%;
     left: 21%;
-    width: 250px;
-    height: 100px;
+    width: 365px;
+    height: 110px;
     padding: 15px;
     
   }
@@ -824,8 +824,8 @@ a {
     margin-bottom: 20px;
   }
   .img-overlay img {
-    top: 40%;
-    right: 195px;
+    top: 56%;
+    right: 278px;
     width: 45px;
   }
   .box img{
@@ -835,15 +835,16 @@ a {
   }
   .icn1 {
     top: -5%;
-    left: 98%;
+    left: 86%;
   }
   .icn2 {
     display: none;
   }
-  .box-text{
+  .box-text {
     top: 45px;
-    left: 110px;
+    left: 195px;
   }
+
   .box-text p {
     font-size: 0.6em;
     font-weight: 500;
