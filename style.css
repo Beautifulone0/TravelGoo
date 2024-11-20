@@ -575,7 +575,7 @@ a {
   margin-top: 30px;
   margin-bottom: 30px;
 }
-/* Media query for max-width: 480px */
+/* Media query for max-width: 567px */
 @media (max-width: 567px) {
   .content{
     margin: 100px auto;
@@ -698,7 +698,7 @@ a {
   
   
 } 
-/* Media query for max-width: 576px */
+/* Media query for max-width: 768px */
 @media (max-width: 768px) {
   .hero{
     width: 100%;
