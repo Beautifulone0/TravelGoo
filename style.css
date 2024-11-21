@@ -744,7 +744,7 @@ a {
   
   
 } 
-/* Media query for max-width: 768px */
+/* Media query for min-width: 768px  and max-width: 990px */
 @media screen and (min-width: 768px) and (max-width: 990px) {
   .hero{
     width: 100%;
@@ -928,6 +928,7 @@ a {
   }
 
 }
+/* Media query for min-width: 1000px and max-width: 1200px */
 @media screen and (min-width: 1000px) and (max-width: 1200Px) {
   .img-a, .img-a2 {
     display: none;
